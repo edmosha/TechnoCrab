@@ -240,7 +240,7 @@ body {
   min-width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'PT Sans Narrow', 'Cuprum', Arial, Tahoma, San-francis, sans-serif;
+	font-family: 'Cuprum', 'PT Sans Narrow', Arial, Tahoma, San-francis, sans-serif;
 }
 
 * {
@@ -265,7 +265,6 @@ box-sizing: border-box;
   box-shadow: 0px 5px 0px 0px rgba(181,41,51,1);
   background: #ee3643;
   color: #ffffff;
-  font-family: 'Cuprum';
   font-size: 24px;
   line-height: calc(24/24);
   text-transform: uppercase;
@@ -275,7 +274,6 @@ box-sizing: border-box;
 
 .head-link {
   color: #ffffff;    
-  font-family: 'Cuprum';
   font-size: 17px;
   line-height: calc(18/17);
   text-align: center;
@@ -284,6 +282,8 @@ box-sizing: border-box;
 
 .head-middle {
   background: #f3f7f8;
+  padding-top: 45px;
+  padding-bottom: 20px;
 }
 
 .head-middle-box {
@@ -295,7 +295,6 @@ box-sizing: border-box;
   width: 200px;
   margin-left: 53px;
   color: #ee3643;
-  font-family: 'Cuprum';
   font-size: 16px;    
   line-height: calc(23/16);
   font-style: italic;
@@ -308,7 +307,6 @@ box-sizing: border-box;
   padding: 6px;
   border: 3px solid #ffffff;
   color: #ee3643;
-  font-family: 'Cuprum';
   font-size: 21px;
   line-height: calc(24/18);
   text-align: center;
@@ -317,7 +315,6 @@ box-sizing: border-box;
 .head-address {
   padding: 10px;
   color: #32425c;
-  font-family: 'Cuprum';
   font-size: 14px;
   line-height: calc(24/14);
   text-align: center;
@@ -330,7 +327,6 @@ box-sizing: border-box;
   padding: 13px 27px;
   background: #ffffff;
   color: #111111;
-  font-family: 'Cuprum';
   font-size: 21px;
   line-height: calc(18/21);
   text-align: right;
@@ -344,7 +340,6 @@ box-sizing: border-box;
   padding: 13px 27px;
   background: #ffffff;
   color: #111111;
-  font-family: 'Cuprum';
   font-size: 21px;
   line-height: calc(18/21);
   text-align: right;
@@ -353,6 +348,8 @@ box-sizing: border-box;
 
 .head-bottom {
   background: #f3f7f8;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .head-nav {
@@ -360,12 +357,12 @@ box-sizing: border-box;
   justify-content: space-around;
   align-items: center;
   height: 55px;
-  background: #293449;
+  background: #32425c;
+  box-shadow: 0px 5px 0px 0px #293449;
 }
 
 .nav-link {
   color: #ffffff;
-  font-family: 'Cuprum';
   font-size: 17px;
   line-height: calc(17/17);
   text-decoration: none;
@@ -381,40 +378,280 @@ box-sizing: border-box;
   width: 300px; 
   height: 123px;
   margin-right: 20px;
-  background: #ee3643;
+  background: #ffbf47;
 }
 
 .main-nav-group-2 {
   width: 300px; 
   height: 123px;
   margin-right: 20px;
-  background: #ee3643;
+  background: #3bbce3;
 }
 
 .main-nav-group-3 {
   width: 300px; 
   height: 123px;
-  background: #ee3643;
+  background: #dc91d8;
 }
 
 .main-nav-group-4 {
+  position: relative;
   width: 620px; 
   height: 266px;
   margin-right: 20px;
   margin-top: 20px;
-  background: #ee3643;
+  background: #574135;
 }
 
 .main-nav-group-5 {
   width: 300px; 
   height: 123px;
   margin-top: 20px;
-  background: #ee3643;
+  background: #8ed78f;
 }
 
 .main-nav-group-6 {
   width: 300px; 
   height: 123px;
   margin-top: 20px;
+  background: #ffc047;
+}
+
+.main-nav-h4 {
+  margin: 18px 0 0 23px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: calc(30/21);
+}
+
+.main-nav-link {
+  display: inline-block;
+  width: 135px;
+  height: 38px;
+  margin: 15px 0 22px 25px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: calc(18/14); 
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.popular-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background: #f9f5f0;
+}
+
+.popular-h2 {
+  padding: 30px;
+  color: #32425c;
+  font-size: 30px;
+  line-height: calc(30/30);
+  text-transform: uppercase;
+}
+
+.main-link { 
+  display: inline-block;
+  width: 253px;
+  height: 38px;
+  padding: 12px;
+  border-radius: 3px;
   background: #ee3643;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: calc(18/14);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-nav .main-link {
+  position: absolute;
+  bottom: 22px;
+  left: 25px;
+}
+
+.popular-goods .main-link {
+  margin-right: 25px;
+}
+
+.popular-production .main-link {
+  margin-right: 25px;
+}
+
+.popular-middle {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.popular-item {
+  width: 220px;
+  height: 318px;
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.popular-item img {
+  /* СЛОЖНА */
+}
+
+.item-name {
+  color: #000000;
+  font-family: 'PT Sans Narrow';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(20/18);
+}
+
+.production-middle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.production-item {
+  display: inline-block;
+  width: 220px;
+  height: 145px;
+  margin-top: 20px;
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.service-bg {
+  margin-top: 85px;
+  background: #f4f8f9;
+}
+
+.main-h2 {
+  padding-top: 60px;
+  font-size: 30px;
+  line-height: calc(24/30);
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.service p {
+  margin-bottom: 70px;
+  font-family: 'PT Sans Narrow';
+  font-size: 13px;
+  line-height: calc(24/13);
+}
+
+.btn-and-info {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.service-btn {
+  width: 240px;
+  height: 61px;
+}
+
+input[type="radio"]{
+	display: none;
+}
+
+label.label-btn {
+	position: relative;
+	padding-left: 30px;
+}
+
+label.label-delivery:after {
+	content: "Доставка";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 218px;
+  height: 45px;
+  padding-top: 16px;
+  padding-left: 22px;
+  border-bottom: 1px solid #4e637c;
+  background: #32425c;
+  color: #ffffff;;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: calc(30/21);
+
+}
+
+input[type="radio"]:checked + label.label-delivery:after {
+  background: #ffffff;
+  color: #32425c;
+}
+
+label.label-guarantee:after {
+	content: "Гарантия";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 218px;
+  height: 45px;
+  padding-top: 16px;
+  padding-left: 22px;
+  border-bottom: 1px solid #4e637c;
+  background: #32425c;
+  color: #ffffff;;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: calc(30/21);
+
+}
+
+input[type="radio"]:checked + label.label-guarantee:after {
+  background: #ffffff;
+  color: #32425c;
+}
+
+label.label-credit:after {
+	content: "Доставка";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 218px;
+  height: 45px;
+  padding-top: 16px;
+  padding-left: 22px;
+  background: #32425c;
+  color: #ffffff;;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: calc(30/21);
+
+}
+
+input[type="radio"]:checked + label.label-credit:after {
+  background: #ffffff;
+  color: #32425c;
+}
+
+.delivery {
+  display: block;
+}
+
+.guarantee {
+  display: none;
+}
+
+.credit {
+  display: none;
+}
+
+.info-h3 {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #32425c;
+  font-size: 36px;
+  line-height: calc(24/36);
+  text-transform: uppercase;
 }

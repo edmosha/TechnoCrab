@@ -419,7 +419,7 @@ box-sizing: border-box;
   height: 266px;
   margin-right: 20px;
   margin-top: 20px;
-  background: #574135;
+  background: #574135 url(../img/techno-crab-1.jpg);
 }
 
 .main-nav-group-5 {
@@ -872,8 +872,4 @@ input[type="radio"]:checked + label.label-credit:after {
   color: #ffda96;
   font-size: 18px;
   line-height: calc(24/18);
-}
-
-.footer-info {
-  margin: 0;
 }

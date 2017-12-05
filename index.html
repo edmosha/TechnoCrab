@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>TechnoCrab</title>
@@ -13,7 +13,7 @@
         <div class="container"> 
         <nav>
             <a class="head-logo" href="#">Технокраб</a>
-            <a class="head-link" href="#">Поиск</a>
+            <input class="head-search" type="text" placeholder="Поиск">
             <a class="head-link" href="#">Закладки: 0</a>
             <a class="head-link" href="#">Корзина: 0</a>
             <a class="head-link" href="#">Оформить заказ</a>
@@ -63,7 +63,7 @@
                 <a class="main-nav-link" href="#">Для стройки</a>
             </div>
             <div class="main-nav-group-4">
-                <a class="main-link" href="#">Открыть каталог</a>
+                <a class="main-btn" href="#">Открыть каталог</a>
             </div>
             <div class="main-nav-group-5">
                 <h4 class="main-nav-h4">Скидки 50%</h4>
@@ -77,14 +77,14 @@
         <div class="popular-goods">
             <div class="popular-top">
                 <h2 class="popular-h2">Популярные товары:</h2>
-                <a class="main-link" href="#">Все популярные товары</a>
+                <a class="main-btn" href="#">Все популярные товары</a>
             </div>
             <div class="popular-middle">
                 <div class="popular-item">
                     <img src="img/popular-item-1.jpg" alt="item1">
-                 <span class="item-name">Перфоратор BOSCH BFG 9000</span>
+                    <span class="item-name">Перфоратор BOSCH BFG 9000</span>
                     <span class="item-price-1">32500 Р.</span>
-                 <span class="item-price-2">25500 Р.</span>
+                    <span class="item-price-2">25500 Р.</span>
                 </div>
                 <div class="popular-item">
                     <img src="img/popular-item-2.jpg" alt="item2">
@@ -98,7 +98,7 @@
                     <span class="item-price-1">30500 Р.</span>
                     <span class="item-price-2">25500 Р.</span>
                 </div>
-                <div class="popular-item">
+                <div class="popular-item new-flag">
                     <img src="img/popular-item-4.jpg" alt="item4">
                     <span class="item-name">Перфоратор BOSCH BFG 9000</span>
                     <span class="item-price-1"></span>
@@ -109,7 +109,7 @@
         <div class="popular-production">
             <div class="popular-top">
                 <h2 class="popular-h2">Популярные производители:</h2>
-                <a class="main-link" href="#">Все производители</a>
+                <a class="main-btn" href="#">Все производители</a>
             </div>
             <div class="production-middle">
                 <a class="production-item">
@@ -188,7 +188,7 @@
             <div class="info">
                 <h2 class="main-h2">Компания «ТехноКраб»</h2>
                 <p>Настоящий крабовый шоппинг начинается здесь! Огромный выбор товаров для ремонта и 
-                    строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+                    строительства ракушек не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
                 <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
                     ТехноКраб работает со многими транспортными компаниями: </p>
                 <ul>
@@ -208,10 +208,10 @@
         </div>
     </main>
     <footer>
-        <div class="footer-top">
+        <div class="footer-top-bg">
         <div class="container">
             <nav class="footer-nav">
-                <a class="fofter-logo" href="#">ТехноКраб</a>
+                <a class="footer-logo" href="#">ТехноКраб</a>
                 <a class="nav-link" href="#">Компания</a>
                 <a class="nav-link" href="#">Новости</a>
                 <a class="nav-link" href="#">Каталог</a>
@@ -220,11 +220,12 @@
             </nav>
         </div>
         </div>
-        <div class="footer-middle">
+        <div class="footer-middle-bg">
         <div class="container">
+        <div class="footer-middle"
             <nav class="footer-nav">
-                <span class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
-                <span class="footer-number">+7 (812) 555-05-55</span>
+                <p class="footer-info">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                    +7 (812) 555-05-55</p>
                 <a class="nav-link" href="#">Материалы</a>
                 <a class="nav-link" href="#">Техника</a>
                 <a class="nav-link" href="#">Инструмент</a>
@@ -232,11 +233,12 @@
             </nav>
         </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom-bg">
         <div class="container">
+        <div class="footer-bottom">
             <div class="footer-technocrab">
-                <span class="footer-info">© 210-2017 Компания «ТехноКраб»</span>
-                <span class="footer-info">Все права защищены</span>
+                <p class="footer-info">© 210-2017 Компания «ТехноКраб»
+                    Все права защищены</p>
             </div>
             <div class="footer-socium">
                 <a class="btn-vk"></a>
@@ -244,13 +246,14 @@
                 <a class="btn-insta"></a>
             </div>
             <div class="footer-feedback">
-                <span class="footer-info">Обратная связь</span>
+                <p class="footer-info">Обратная связь</p>
                 <a class="footer-link">mail@htmlacademy.ru</a>
             </div>
             <div class="footer-developer">
-                <span class="footer-info">Рабработано —</span>
+                <p class="footer-info">Рабработано —</p>
                 <a class="footer-link">htmlacademy.ru</a>
             </div>
+        </div>
         </div>
         </div>
     </footer>

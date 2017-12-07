@@ -1,0 +1,298 @@
+.bg-_icon_logout {
+    width: 21px; height: 17px;
+    background: url('css_sprites.png') -1182px -1257px;
+}
+
+x
+.bg-cart_icon_копия_2 {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -375px -1777px;
+}
+
+x
+.bg-cart_icon_копия_3 {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -1864px -639px;
+}
+
+x
+.bg-cart_icon_копия_4 {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -1864px -894px;
+}
+
+x
+.bg-cart_icon_копия_5 {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -1864px -1149px;
+}
+
+x
+.bg-cart_icon_копия_6 {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -1864px -1404px;
+}
+
+x
+.bg-btn_copy_14 {
+    width: 141px; height: 38px;
+    background: url('css_sprites.png') -530px -544px;
+}
+
+x
+.bg-cart_icon {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -120px -1777px;
+}
+
+x
+.bg-checkbox_on {
+    width: 27px; height: 23px;
+    background: url('css_sprites.png') -387px -1257px;
+}
+
+x
+.bg-checkbox_on_1 {
+    width: 27px; height: 23px;
+    background: url('css_sprites.png') -120px -1257px;
+}
+
+x
+.bg-checkbox_on_2 {
+    width: 27px; height: 23px;
+    background: url('css_sprites.png') -654px -1257px;
+}
+
+x
+.bg-fb_icon {
+    width: 12px; height: 22px;
+    background: url('css_sprites.png') -1864px -377px;
+}
+
+x
+.bg-filter_button {
+    width: 20px; height: 22px;
+    background: url('css_sprites.png') -1604px -120px;
+}
+
+x
+.bg-icon_1 {
+    width: 44px; height: 65px;
+    background: url('css_sprites.png') -1305px -432px;
+}
+
+x
+.bg-icon_2 {
+    width: 75px; height: 61px;
+    background: url('css_sprites.png') -120px -956px;
+}
+
+x
+.bg-icon_3 {
+    width: 78px; height: 62px;
+    background: url('css_sprites.png') -987px -423px;
+}
+
+x
+.bg-icon_bookmark {
+    width: 14px; height: 16px;
+    background: url('css_sprites.png') -2121px -632px;
+}
+
+x
+.bg-icon_down_dir {
+    width: 11px; height: 10px;
+    background: url('css_sprites.png') -2121px -1140px;
+}
+
+x
+.bg-icon_4 {
+    width: 59px; height: 72px;
+    background: url('css_sprites.png') -1305px -120px;
+}
+
+x
+.bg-icon_5 {
+    width: 78px; height: 63px;
+    background: url('css_sprites.png') -987px -120px;
+}
+
+x
+.bg-icon_bookmark_копия_3 {
+    width: 14px; height: 16px;
+    background: url('css_sprites.png') -2121px -120px;
+}
+
+x
+.bg-icon_bookmark_копия {
+    width: 14px; height: 16px;
+    background: url('css_sprites.png') -2121px -376px;
+}
+
+x
+.bg-icon_down_dir_1 {
+    width: 11px; height: 10px;
+    background: url('css_sprites.png') -2121px -1390px;
+}
+
+x
+.bg-icon_down_dir_2 {
+    width: 11px; height: 10px;
+    background: url('css_sprites.png') -1132px -1777px;
+}
+
+x
+.bg-icon_home {
+    width: 14px; height: 12px;
+    background: url('css_sprites.png') -2121px -888px;
+}
+
+x
+.bg-icon_logout {
+    width: 20px; height: 17px;
+    background: url('css_sprites.png') -120px -1520px;
+}
+
+x
+.bg-icon_phone {
+    width: 19px; height: 19px;
+    background: url('css_sprites.png') -1604px -382px;
+}
+
+x
+.bg-icon_search__2_ {
+    width: 17px; height: 17px;
+    background: url('css_sprites.png') -1864px -120px;
+}
+
+x
+.bg-icon_login {
+    width: 20px; height: 17px;
+    background: url('css_sprites.png') -380px -1520px;
+}
+
+x
+.bg-icon_search_1 {
+    width: 17px; height: 17px;
+    background: url('css_sprites.png') -1157px -1520px;
+}
+
+x
+.bg-icon_search_2 {
+    width: 17px; height: 17px;
+    background: url('css_sprites.png') -1414px -1520px;
+}
+
+x
+.bg-icon_up_dir {
+    width: 11px; height: 10px;
+    background: url('css_sprites.png') -881px -1777px;
+}
+
+x
+.bg-icon_search {
+    width: 17px; height: 17px;
+    background: url('css_sprites.png') -900px -1520px;
+}
+
+x
+.bg-icon_logout_копия {
+    width: 20px; height: 17px;
+    background: url('css_sprites.png') -640px -1520px;
+}
+
+x
+.bg-icon_up_dir_1 {
+    width: 11px; height: 10px;
+    background: url('css_sprites.png') -630px -1777px;
+}
+
+x
+.bg-icon_up_dir_2 {
+    width: 11px; height: 10px;
+    background: url('css_sprites.png') -2121px -1640px;
+}
+
+x
+.bg-icon_user_копия {
+    width: 20px; height: 18px;
+    background: url('css_sprites.png') -1604px -1157px;
+}
+
+x
+.bg-icon_user {
+    width: 20px; height: 18px;
+    background: url('css_sprites.png') -1604px -899px;
+}
+
+x
+.bg-icon_user_1 {
+    width: 20px; height: 18px;
+    background: url('css_sprites.png') -1604px -641px;
+}
+
+x
+.bg-Layer_119 {
+    width: 181px; height: 184px;
+    background: url('css_sprites.png') -120px -120px;
+}
+
+x
+.bg-insta_icon {
+    width: 21px; height: 21px;
+    background: url('css_sprites.png') -921px -1257px;
+}
+
+x
+.bg-Layer_130 {
+    width: 170px; height: 172px;
+    background: url('css_sprites.png') -120px -544px;
+}
+
+x
+.bg-new_flag {
+    width: 60px; height: 59px;
+    background: url('css_sprites.png') -435px -956px;
+}
+
+x
+.bg-radio_on_копия {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -735px -956px;
+}
+
+x
+.bg-radio_on {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -1000px -956px;
+}
+
+x
+.bg-radio_on_1 {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -1305px -737px;
+}
+
+x
+.bg-slider_dots {
+    width: 10px; height: 10px;
+    background: url('css_sprites.png') -1383px -1777px;
+}
+
+x
+.bg-slider_indicator {
+    width: 6px; height: 6px;
+    background: url('css_sprites.png') -1633px -1777px;
+}
+
+x
+.bg-vk_icon {
+    width: 26px; height: 15px;
+    background: url('css_sprites.png') -1305px -1002px;
+}
+
+x
+.bg-Layer_131 {
+    width: 206px; height: 146px;
+    background: url('css_sprites.png') -541px -120px;
+}

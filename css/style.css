@@ -232,9 +232,19 @@ html {
   [hidden] {
     display: none;
   }
+
+  .visually-hidden {
+    position: absolute;
+  
+    width: 1px;
+    height: 1px;
+  
+    clip: rect(0, 0, 0, 0);
+  }
   
   /** /\ ** normalize-ccs ** /\ **/ 
-  
+  /** /\ ** normalize-ccs ** /\ **/ 
+  /** /\ ** normalize-ccs ** /\ **/ 
 
 body {
   min-width: 100%;
@@ -485,14 +495,75 @@ box-sizing: border-box;
   background: #dc91d8;
 }
 
-.main-nav-group-4 {
+/* slider */
+/* slider */
+/* slider */
+
+.nav-slider {
   position: relative;
-  width: 620px; 
-  height: 266px;
   margin-right: 20px;
   margin-top: 20px;
+  width: 620px; 
+  height: 266px;
+  background: #70451e;
+}
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  display: none;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 36px;
+  left: 295px;
+  z-index: 20;
+  font-size: 0;
+}
+
+.slider-controls label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#slide-1:checked ~ .nav-slider {
+  background: url("img/slider-item2.png");
+}
+
+#slide-2:checked ~ .nav-slider {
+  background: url("img/slider-item3.png");
+}
+
+#slide-1:checked ~ .nav-slider #picture-1,
+#slide-2:checked ~ .nav-slider #picture-2 {
+  display: block;
+}
+
+#slide-1:checked ~ .nav-slider label[for="slide-1"],
+#slide-2:checked ~ .nav-slider label[for="slide-2"] {
+  border: 2px solid #ffffff;
+  background: #ee3643;
+}
+
+/*
+.slide-1 {
   background: #574135 url(../img/techno-crab-1.jpg);
 }
+
+.slide-2 {
+  background: #574135 url(../img/techno-crab-2.jpg);
+}
+*/
 
 .main-nav-group-5 {
   width: 300px; 
@@ -584,6 +655,7 @@ box-sizing: border-box;
   position: absolute;
   bottom: 22px;
   left: 25px;
+  width: 195px;
 }
 
 .popular-goods .main-btn {
@@ -717,7 +789,7 @@ box-sizing: border-box;
   height: 61px;
 }
 
-input[type="radio"]{
+.service-btn-block input[type="radio"]{
 	display: none;
 }
 

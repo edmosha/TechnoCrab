@@ -8,6 +8,8 @@
     <title>TechnoCrab</title>
 </head>
 <body>
+    <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
+    <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
     <header>
         <div class="head-top">
         <div class="container"> 
@@ -62,8 +64,19 @@
                 <h4 class="main-nav-h4">Техника</h4>
                 <a class="main-nav-link" href="#">Для стройки</a>
             </div>
-            <div class="main-nav-group-4">
-                <a class="main-btn" href="#">Открыть каталог</a>
+            <div class="nav-slider">
+                <div class="slider-controls">    
+                    <label for="slide-1"></label>
+                    <label for="slide-2"></label>
+                </div>
+                <div class="slider-list">
+                    <div id="slide-1" class="slide">
+                        <a class="main-btn" href="#">Открыть каталог</a>
+                    </div>
+                    <div id="slide-2" class="slide">
+                        <a class="main-btn" href="#">Открыть каталог</a>
+                    </div>
+                </div>
             </div>
             <div class="main-nav-group-5">
                 <h4 class="main-nav-h4">Скидки 50%</h4>

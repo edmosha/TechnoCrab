@@ -355,8 +355,7 @@ box-sizing: border-box;
 
 .head-middle {
   background: #f3f7f8;
-  padding-top: 45px;
-  padding-bottom: 20px;
+  padding: 45px 0;
 }
 
 .head-middle-box {
@@ -366,6 +365,7 @@ box-sizing: border-box;
 
 .head-middle p {
   width: 200px;
+  margin: 0;
   margin-left: 53px;
   color: #ee3643;
   font-size: 16px;    
@@ -404,6 +404,7 @@ box-sizing: border-box;
   line-height: calc(18/21);
   text-align: right;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .head-btn-log:hover {
@@ -417,6 +418,7 @@ box-sizing: border-box;
 }
 
 .head-btn-reg {
+  display: inline-block;
   width: 150px;
   height: 45px;
   padding: 13px 27px;
@@ -537,11 +539,11 @@ box-sizing: border-box;
 }
 
 #slide-1:checked ~ .nav-slider {
-  background: url("img/slider-item2.png");
+  background: url(../img/techno-crab-1.jpg);
 }
 
 #slide-2:checked ~ .nav-slider {
-  background: url("img/slider-item3.png");
+  background: url(../img/techno-crab-1.jpg);
 }
 
 #slide-1:checked ~ .nav-slider #picture-1,

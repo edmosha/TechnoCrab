@@ -27,7 +27,6 @@ x
     background: url('css_sprites.png') -1864px -1149px;
 }
 
-x
 .bg-cart_icon_копия_6 {
     width: 15px; height: 15px;
     background: url('css_sprites.png') -1864px -1404px;

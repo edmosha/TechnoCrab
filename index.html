@@ -8,8 +8,6 @@
     <title>TechnoCrab</title>
 </head>
 <body>
-    <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
-    <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
     <header>
         <div class="head-top">
         <div class="container"> 
@@ -54,39 +52,46 @@
     <main class="main-index">
         <div class="container">
         <div class="main-nav">
-            <div class="main-nav-group-1">
-                <h4 class="main-nav-h4">Материалы</h4>
-                <a class="main-nav-link new" href="#">На любой вкус</a>
-            </div>
-            <div class="main-nav-group-2">
-                <h4 class="main-nav-h4">Инструмент</h4>
-                <a class="main-nav-link" href="#">На все случаи</a>
-            </div>
-            <div class="main-nav-group-3">
-                <h4 class="main-nav-h4">Техника</h4>
-                <a class="main-nav-link" href="#">Для стройки</a>
-            </div>
-            <div class="nav-slider">
-                <div class="slider-controls">    
-                    <label for="slide-1"></label>
-                    <label for="slide-2"></label>
+            <div class="nav-wrapper">
+                <div class="main-nav-group-1">
+                    <h4 class="main-nav-h4">Материалы</h4>
+                    <a class="main-nav-link new" href="#">На любой вкус</a>
                 </div>
-                <div class="slider-list">
-                    <div id="picture-1" class="slide">
-                        <a class="main-btn" href="#">Открыть каталог</a>
+                <div class="main-nav-group-2">
+                    <h4 class="main-nav-h4">Инструмент</h4>
+                    <a class="main-nav-link" href="#">На все случаи</a>
+                </div>
+                <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
+                <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
+                <div class="nav-slider">
+                    <div class="slider-controls">    
+                        <label for="slide-1"></label>
+                        <label for="slide-2"></label>
                     </div>
-                    <div id="picture-2" class="slide">
-                        <a class="main-btn" href="#">Открыть каталог</a>
+                    <div class="slider-list">
+                        <div id="picture-1" class="slide">
+                            <a class="main-btn" href="#">Открыть каталог</a>
+                        </div>
+                        <div id="picture-2" class="slide">
+                            <a class="main-btn" href="#">Открыть каталог</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="main-nav-group-5">
-                <h4 class="main-nav-h4">Скидки 50%</h4>
-                <a class="main-nav-link" href="#">На 350 товаров</a>
-            </div>
-            <div class="main-nav-group-6">
-                <h4 class="main-nav-h4">Доставка</h4>
-                <a class="main-nav-link" href="#">Бесплатно</a>
+            <div>
+                <div class="main-nav-group-3">
+                    <h4 class="main-nav-h4">Техника</h4>
+                    <a class="main-nav-link" href="#">Для стройки</a>
+                </div>
+                
+                <div class="main-nav-group-5">
+                    <h4 class="main-nav-h4">Скидки 50%</h4>
+                    <a class="main-nav-link" href="#">На 350 товаров</a>
+                </div>
+                <div class="main-nav-group-6">
+                    <h4 class="main-nav-h4">Доставка</h4>
+                    <a class="main-nav-link" href="#">Бесплатно</a>
+                </div>
             </div>
         </div>
         <div class="popular-goods">
@@ -179,20 +184,20 @@
         <div class="service">
             <h2 class="main-h2">Сервисы</h2>
             <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
-                Мы стараемся изо всех сил, что бы сделать ваши покупки приятными.</p>
+                Мы стараемся изо всех сил, что бы сделать ваши покупки приятными.</p>     
+            <input id="btn-1" class="visually-hidden" type="radio" name="btn-1" value="b-1" checked>
+            <input id="btn-2" class="visually-hidden" type="radio" name="btn-1" value="b-1">
+            <input id="btn-3" class="visually-hidden" type="radio" name="btn-1" value="b-1">
             <div class="btn-and-info">
                 <div class="groups">
                     <div class="service-btn-block">
                         <div class="service-btn">
-                            <input id="btn-1" type="radio" name="btn-1" value="b-1" checked>
                             <label class="label-btn label-delivery" for="btn-1">Доставка</label>
                         </div>
                         <div class="service-btn">
-                            <input id="btn-2" type="radio" name="btn-1" value="b-1">
                             <label class="label-btn label-guarantee" for="btn-2">Гарантия</label>
                         </div>
-                        <div class="service-btn">
-                            <input id="btn-3" type="radio" name="btn-1" value="b-1">
+                        <div class="service-btn"> 
                             <label class="label-btn label-credit" for="btn-3">Кредит</label>
                         </div>
                     </div>

@@ -473,8 +473,15 @@ box-sizing: border-box;
 
 .main-nav {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 620px;
+  margin-right: 20px;
 }
 
 .main-nav-group-1 {
@@ -487,7 +494,6 @@ box-sizing: border-box;
 .main-nav-group-2 {
   width: 300px; 
   height: 123px;
-  margin-right: 20px;
   background: #3bbce3;
 }
 
@@ -503,7 +509,6 @@ box-sizing: border-box;
 
 .nav-slider {
   position: relative;
-  margin-right: 20px;
   margin-top: 20px;
   width: 620px; 
   height: 266px;
@@ -557,7 +562,6 @@ box-sizing: border-box;
   background: #ee3643;
 }
 
-/*
 .slide-1 {
   background: #574135 url(../img/techno-crab-1.jpg);
 }
@@ -565,7 +569,6 @@ box-sizing: border-box;
 .slide-2 {
   background: #574135 url(../img/techno-crab-2.jpg);
 }
-*/
 
 .main-nav-group-5 {
   width: 300px; 
@@ -582,7 +585,8 @@ box-sizing: border-box;
 }
 
 .main-nav-h4 {
-  margin: 18px 0 0 23px;
+  margin: 0;
+  padding: 18px 0 0 23px;
   color: #ffffff;
   font-size: 21px;
   font-weight: bold;
@@ -987,6 +991,13 @@ input[type="radio"]:checked + label.label-credit:after {
 #btn-2:checked ~ .btn-and-info #guarantee,
 #btn-3:checked ~ .btn-and-info #credit {
   display: block;
+}
+
+#btn-1:checked ~ .btn-and-info label[for="btn-1"],
+#btn-2:checked ~ .btn-and-info label[for="btn-2"],
+#btn-3:checked ~ .btn-and-info label[for="btn-3"] {
+  background: #ffffff;
+  color: #32425c;
 }
 
 /* !!! */

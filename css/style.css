@@ -349,7 +349,7 @@ box-sizing: border-box;
 .head-search {
   padding: 5px;
   border: none;
-  background: #293449;
+  background: inherit;
   color: #ffffff;
 }
 
@@ -364,7 +364,7 @@ box-sizing: border-box;
   justify-content: space-between;
 }
 
-.head-middle p {
+.head-p {
   width: 200px;
   margin: 0;
   margin-left: 53px;
@@ -883,6 +883,12 @@ box-sizing: border-box;
   margin: auto;
 }
 
+.info-p {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  line-height: calc(24/13);
+}
+
 .service-bg {
   min-height: 522px;
   margin-top: 85px;
@@ -899,7 +905,7 @@ box-sizing: border-box;
   color: #000000;
 }
 
-.service p {
+.service .info-p {
   margin-bottom: 30px;
   font-family: 'PT Sans';
   font-size: 13px;
@@ -1033,12 +1039,6 @@ label.label-btn:hover {
   background: #ff5357;
 }
 
-.info-and-contacts p {
-  font-family: 'PT Sans';
-  font-size: 13px;
-  line-height: calc(24/13);
-}
-
 .info-and-contacts li {
   margin: 15px 0;
   list-style: none;
@@ -1060,7 +1060,7 @@ label.label-btn:hover {
   margin-top: 32px;
 }
 
-.contacts p {
+.contacts .info-p {
   width: 180px;
 }
 
@@ -1289,8 +1289,18 @@ label.label-btn:hover {
   background: url(../img/css_sprites.png) no-repeat -730px -756px;
   font-family: 'PT Sans';
   font-size: 13px;
+  font-weight: bold;
   line-height: calc(18/13);
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.breadcrumbs-item:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs-item:active {
+  font-weight: normal;
 }
 
 .section-name {
@@ -1337,6 +1347,7 @@ label.label-btn:hover {
   margin-right: 139px;
   font-family: 'PT Sans';
   font-size: 13px;
+  font-weight: bold;
   line-height: calc(18/13);
   text-transform: uppercase;
   cursor: pointer;
@@ -1408,6 +1419,90 @@ label.label-btn:hover {
   width: 220px;
 }
 
+/*!!! FILTER-RANGE !!!*/
+/*!!! FILTER-RANGE !!!*/
+/*!!! FILTER-RANGE !!!*/
+
+.filter-range {
+  width: 220px;
+}
+
+.hyphen {
+  padding: 4px;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  line-height: calc(18/16);
+}
+
+.price-controls input {
+  width: 95px;
+  margin: 0;
+  padding: 9px;
+  border: none;
+  border-radius: 3px;
+  background: #f7f3ec;
+  font-family: 'PT Sans';
+  font-size: 17px;
+  line-height: calc(18/17);
+  text-align: center;
+}
+
+.range-controls {
+  position: relative;
+  width: 220px;
+  height: 80px;
+  margin-bottom: 9px;
+  border-radius: 3px;
+  background: #f7f3ec;
+}
+
+.range-controls .scale {
+  position: absolute;
+  top: 39px;
+  left: 20px;
+  width: 180px;
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  position: absolute;
+  width: 84%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-toggle {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.range-toggle-max {
+  left: 75%
+}
+
+.range-toggle:hover {
+  background: #00ca74;
+}
+
+.range-toggle:active {
+  background: #000000;
+}
+
+/*!!! FILTER-RANGE !!!*/
+/*!!! FILTER-RANGE !!!*/
+/*!!! FILTER-RANGE !!!*/
+
+
 .catalog-filters .white-btn {
   width: 140px;
 }
@@ -1459,12 +1554,32 @@ label.label-radio {
 label.label-checkbox::after {
   content: "";
   position: absolute;
+  width: 25px;
+  height: 25px;
   left: 0;
   bottom: 1px;
+  background: url(../img/css_sprites.png) no-repeat -735px -956px;
+}
+
+.label-checkbox:hover::after {
   background: url(../img/css_sprites.png) no-repeat -1000px -956px;
 }
 
-label.label-radio::after {
+input[type="checkbox"]:checked + label.label-checkbox::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 1px;
+  bottom: 0;
+  background: url(../img/css_sprites.png) no-repeat -120px -1257px;
+}
+
+input[type="checkbox"]:checked + label.label-checkbox:hover::after {
+  background: url(../img/css_sprites.png) no-repeat -387px -1257px;
+}
+
+.label-radio::after {
   content: "";
   position: absolute;
   left: 0;
@@ -1473,10 +1588,6 @@ label.label-radio::after {
   height: 19px;
   border: 4px solid #c5c5c5;
   border-radius: 50%;
-}
-
-input[type="checkbox"]:checked + label.label-checkbox::after {
-  background: url(../img/css_sprites.png) no-repeat -120px -1257px;
 }
 
 input[type="radio"]:checked + label.label-radio::after {
@@ -1500,6 +1611,18 @@ input[type="radio"]:checked + label.label-radio::before {
   border: 4px solid #ffffff;
   border-radius: 50%;
   background: #c5c5c5;
+}
+
+.label-radio:hover::after {
+  border: 4px solid #b5b5b5;
+}
+
+input[type="radio"]:checked + label.label-radio:hover::after {
+  border: 4px solid #b5b5b5;
+}
+
+input[type="radio"]:checked + label.label-radio:hover::before {
+  background: #b5b5b5;
 }
 
 .filters-h2 {
@@ -1555,4 +1678,17 @@ input[type="radio"]:checked + label.label-radio::before {
 
 .white-btn:last-child {
   width: 140px;
+}
+
+.catalog-filters .white-btn {
+  margin-top: 70px;
+}
+
+.interesting {
+  padding-bottom: 65px;
+  background: #f2f6f8;
+}
+
+.interesting:hover {
+  background: url(../img/gif/perf.gif) no-repeat 120px 0px / 20%, url(../img/gif/perf.gif) no-repeat 1300px 0 / 20%;
 }

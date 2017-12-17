@@ -14,7 +14,7 @@
         <div class="head-top">
         <div class="container"> 
         <nav>
-            <a class="head-logo" href="#">Технокраб</a>
+            <a class="head-logo" href="index.html">Технокраб</a>
             <input class="head-search" type="text" placeholder="Поиск">
             <a class="head-link bookmarks" href="#">Закладки: 0</a>
             <a class="head-link basket" href="#">Корзина: 0</a>
@@ -25,7 +25,7 @@
         <div class="head-middle">
         <div class="container">
             <div class="head-middle-box">
-                <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+                <p class="head-p">Интернет-магазин строительных материалов и инструментов для ремонта</p>
                 <div>
                     <span class="head-number">+7 (812) 555-05-55</span><br>
                     <span class="head-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
@@ -78,8 +78,25 @@
                     </div>
                 </div>
                 <div class="catalog-filters">
-                    <div class="price">
+                    <div class="filter-range">    
                         <h3 class="filters-h2">Цена:</h3>
+                        <div class="range-controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="range-toggle range-toggle-min"></div>
+                            <div class="range-toggle range-toggle-max"></div>
+                        </div>
+                        <div class="price-controls">
+                            <input type="text" name="min-price" value="0">
+                            <span class="hyphen">—</span>
+                            <input type="text" name="max-price" value="3000">
+                        <!--
+                            <label class="min-price"><input type="text" name="min-price" value="0"></label>
+                            <label class="max-price"><input type="text" name="max-price" value="3000"></label>
+                        -->
+
+                        </div>
                     </div>
                     <div class="production">
                         <h3 class="filters-h2">Производители:</h3>
@@ -230,7 +247,7 @@
         <div class="interesting">
         <div class="container">
             <h2 class="main-h2">Пара слов о перфораторах</h2>
-            <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
+            <p class="info-p">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
                 Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
                 В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
         </div>
@@ -271,9 +288,9 @@
                     Все права защищены</p>
             </div>
             <div class="footer-socium">
-                <a class="btn-vk"></a>
-                <a class="btn-facebook"></a>
-                <a class="btn-insta"></a>
+                <a class="btn-vk" href="https://vk.com/theskyinside"></a>
+                <a class="btn-facebook" href="#"></a>
+                <a class="btn-insta" href="https://www.instagram.com/br0dskaya/"></a>
             </div>
             <div class="footer-feedback">
                 <p class="footer-info">Обратная связь</p>

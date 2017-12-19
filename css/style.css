@@ -589,7 +589,7 @@ box-sizing: border-box;
   width: 300px; 
   height: 123px;
   margin-right: 20px;
-  background: #ffbf47;
+  background: #ffbf47 url(../img/css_sprites.png) -1095px -402px;
 }
 
 .main-nav-group-1:hover {
@@ -599,7 +599,7 @@ box-sizing: border-box;
 .main-nav-group-2 {
   width: 300px; 
   height: 123px;
-  background: #3bbce3;
+  background: #3bbce3 url(../img/css_sprites.png) 80px -920px;
 }
 
 .main-nav-group-2:hover {
@@ -609,7 +609,7 @@ box-sizing: border-box;
 .main-nav-group-3 {
   width: 300px; 
   height: 123px;
-  background: #dc91d8;
+  background: #dc91d8 url(../img/css_sprites.png) no-repeat -797px -383px;
 }
 
 .main-nav-group-3:hover {
@@ -620,7 +620,7 @@ box-sizing: border-box;
   width: 300px; 
   height: 123px;
   margin-top: 20px;
-  background: #8ed78f;
+  background: #8ed78f url(../img/css_sprites.png) no-repeat -1105px -90px;
 }
 
 .main-nav-group-5:hover {
@@ -631,7 +631,7 @@ box-sizing: border-box;
   width: 300px; 
   height: 123px;
   margin-top: 20px;
-  background: #ffc047;
+  background: #ffc047 url(../img/css_sprites.png) no-repeat -797px -80px;
 }
 
 .main-nav-group-6:hover {
@@ -1805,3 +1805,11 @@ input[type="radio"]:checked + label.label-radio:hover::before {
 .write-us {
   display: none;
 }
+
+
+/* ​resize:none ВСТАВИТЬ ТЕКСТЕРИА*/
+/* ​resize:none ВСТАВИТЬ ТЕКСТЕРИА*/
+/* ​resize:none ВСТАВИТЬ ТЕКСТЕРИА*/
+/* ​resize:none ВСТАВИТЬ ТЕКСТЕРИА*/
+/* ​resize:none ВСТАВИТЬ ТЕКСТЕРИА*/
+/* ​resize:none ВСТАВИТЬ ТЕКСТЕРИА*/

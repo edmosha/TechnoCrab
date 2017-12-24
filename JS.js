@@ -12,4 +12,7 @@ closeModal.addEventListener('click', function () {
     modal.classList.remove('open');
 })
 
+function play() {
+    document.getElementById("mp3").innerHTML = "<audio src=\"mp3/tuntun.mp3\" autoplay></audio>"
+}
 

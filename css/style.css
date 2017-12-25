@@ -241,6 +241,15 @@ html {
   .visually-hidden {
   display: none;
   }
+
+  /* Persoonal settings */
+
+  label, 
+  a,
+  input,
+  button {
+    cursor: pointer;
+  }
   
   /** /\ ** normalize-ccs ** /\ **/ 
   /** /\ ** normalize-ccs ** /\ **/ 
@@ -429,6 +438,8 @@ box-sizing: border-box;
   display: inline-block;
   width: 120px;
   height: 45px;
+  margin-left: 21px;
+  margin-right: 5px;
   padding: 13px 27px;
   background: #ffffff url(../img/css_sprites.png) -890px -1508px;
   color: #111111;
@@ -436,7 +447,7 @@ box-sizing: border-box;
   line-height: calc(18/21);
   text-align: right;
   text-decoration: none;
-  margin-right: 10px;
+
 }
 
 .head-btn-log:hover {
@@ -480,9 +491,10 @@ box-sizing: border-box;
 .head-nav {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   vertical-align: top;
-  height: 55px;
+  min-height: 55px;
   padding: 0 20px;
   background: #32425c;
   box-shadow: 0px 5px 0px 0px #293449;
@@ -1759,7 +1771,7 @@ input[type="radio"]:checked + label.label-radio:hover::before {
 }
 
 .powered .filter-item {
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 .catalog {
@@ -1768,6 +1780,7 @@ input[type="radio"]:checked + label.label-radio:hover::before {
   flex-wrap: wrap;
   width: 700px;
   padding: 20px 0;
+  padding-bottom: 60px;
 }
 
 .catalog .catalog-item {
@@ -1789,14 +1802,15 @@ input[type="radio"]:checked + label.label-radio:hover::before {
   width: 38px;
   height: 38px;
   vertical-align: top;
-  margin-right: 7px;
+  margin-right: 6px;
   padding: 10px;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   font-family: 'PT Sans';
   font-size: 13px;
-  line-height: calc (18/13);
+  line-height: calc(18/13);
   text-align: center;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -1817,7 +1831,7 @@ input[type="radio"]:checked + label.label-radio:hover::before {
 }
 
 .interesting {
-  padding-bottom: 65px;
+  padding-bottom: 55px;
   background: #f2f6f8;
 }
 

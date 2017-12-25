@@ -285,8 +285,8 @@ box-sizing: border-box;
 .head-link {
   display: inline-block;
   height: 42px;
-  margin-left: -4px;
-  padding: 10px 25px 10px 48px;
+  margin-left: -8px;
+  padding: 12px 31px 10px 48px;
   color: #ffffff;    
   font-size: 17px;
   line-height: calc(18/17);
@@ -361,27 +361,27 @@ box-sizing: border-box;
   height: 42px;
   margin-left: -4px;
   padding: 5px;
-  padding-left: 45px;
+  padding-left: 47px;
   border: none;
   background: inherit;
   color: #ffffff;
-  background: url(../img/css_sprites.png) -1405px -1510px;
+  background: url(../img/css_sprites.png) -1402px -1508px;
   vertical-align: top;
 }
 
 .head-search:hover {
-  background: url(../img/css_sprites.png) -1851px -110px;
+  background: url(../img/css_sprites.png) -1848px -108px;
 }
 
 .head-search:focus{
   outline: none;
-  background: #ffffff url(../img/css_sprites.png) -1148px -1510px;
+  background: #ffffff url(../img/css_sprites.png) -1145px -1508px;
 }
 
 .head-middle {
   min-height: 158px;
   background: #f3f7f8;
-  padding: 44px 0;
+  padding-top: 44px;
 }
 
 .head-middle-box {
@@ -392,6 +392,7 @@ box-sizing: border-box;
 .head-p {
   width: 200px;
   margin: 0;
+  margin-top: 5px;
   margin-left: 53px;
   color: #ee3643;
   font-size: 16px;    
@@ -486,7 +487,7 @@ box-sizing: border-box;
 }
 
 .nav-link {
-  padding: 18px 21px 20px 25px;
+  padding: 19px 21px 20px 25px;
   color: #ffffff;
   font-size: 17px;
   line-height: calc(17/17);
@@ -1314,7 +1315,7 @@ label.label-btn:hover {
 }
 
 .breadcrumbs {
-  padding: 18px 0;
+  padding: 20px 0;
 }
 
 .breadcrumbs-home {
@@ -1325,7 +1326,7 @@ label.label-btn:hover {
 }
 
 .breadcrumbs-item {
-  padding-left: 40px;
+  padding-left: 36px;
   color: #000000;
   background: url(../img/css_sprites.png) no-repeat -730px -756px;
   font-family: 'PT Sans';
@@ -1371,7 +1372,7 @@ label.label-btn:hover {
   width: 220px;
   height: 38px;
   margin-right: 20px;
-  padding: 11px 18px;
+  padding: 7px 18px;
   border-radius: 3px;
   background: #f7f3ec;
 }
@@ -1380,7 +1381,7 @@ label.label-btn:hover {
   display: flex;
   width: 700px;
   height: 38px;
-  padding: 11px 18px;
+  padding: 8px 18px;
   border-radius: 3px;
   background: #f7f3ec;
 }
@@ -1397,7 +1398,7 @@ label.label-btn:hover {
 
 .sorting-type {
   margin-right: 55px;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
   border-bottom: 1px dotted #ee3643;
   color: #b6b3ae;
   font-family: 'PT Sans';
@@ -1419,7 +1420,7 @@ label.label-btn:hover {
 }
 
 .sorting-type:hover {
-  border-bottom: 1px active #ee3643;
+  border-bottom: 1px solid #ee3643;
   color: #000000;
 }
 
@@ -1431,7 +1432,7 @@ label.label-btn:hover {
 .scroll-btn-up {
   width: 11px;
   height: 11px;
-  margin-right: 21px;
+  margin: 3px 19px 0 3px;
   background: url(../img/css_sprites.png) no-repeat -885px -1777px;
 }
 
@@ -1446,6 +1447,7 @@ label.label-btn:hover {
 .scroll-btn-down {
   width: 11px;
   height: 11px;
+  margin-top: 4px;
   background: url(../img/css_sprites.png) no-repeat -2121px -1140px;
 }
 
@@ -1478,6 +1480,7 @@ label.label-btn:hover {
 
 .price-controls input {
   width: 95px;
+  height: 36px;
   margin: 0;
   padding: 9px;
   border: none;
@@ -1493,14 +1496,14 @@ label.label-btn:hover {
   position: relative;
   width: 220px;
   height: 80px;
-  margin-bottom: 9px;
+  margin-bottom: 14px;
   border-radius: 3px;
   background: #f7f3ec;
 }
 
 .range-controls .scale {
   position: absolute;
-  top: 39px;
+  top: 42px;
   left: 20px;
   width: 180px;
   height: 2px;
@@ -1517,8 +1520,8 @@ label.label-btn:hover {
 .range-toggle {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 40px;
-  left: 20px;
+  top: 43px;
+  left: 29px;
   width: 20px;
   height: 20px;
   border: 8px solid #ffffff;
@@ -1529,7 +1532,7 @@ label.label-btn:hover {
 }
 
 .range-toggle-max {
-  left: 75%
+  left: 77%
 }
 
 .range-toggle:hover {
@@ -1551,7 +1554,7 @@ label.label-btn:hover {
   height: 45px;
   padding: 13px;
   padding-left: 47px;
-  background: #ffffff url(../img/css_sprites.png) no-repeat -1594px -630px;
+  background: #ffffff url(../img/css_sprites.png) no-repeat -1591px -626px;
   color: #000000;
   font-size: 21px;
   line-height: calc(18/21);
@@ -1559,11 +1562,11 @@ label.label-btn:hover {
 }
 
 .head-btn-profile:hover {
-  background: #ffffff url(../img/css_sprites.png) no-repeat -1594px -888px;
+  background: #ffffff url(../img/css_sprites.png) no-repeat -1590px -884px;
 }
 
 .head-btn-profile:active {
-  background: #ffffff url(../img/css_sprites.png) no-repeat -1594px -630px;
+  background: #ffffff url(../img/css_sprites.png) no-repeat -1591px -626px;
   color: #c5c5c5
 }
 
@@ -1572,15 +1575,15 @@ label.label-btn:hover {
   width: 40px;
   height: 45px;
   padding: 13px;
-  background: #ffffff url(../img/css_sprites.png) no-repeat -1177px -1246px;
+  background: #ffffff url(../img/css_sprites.png) no-repeat -1173px -1240px;
 }
 
 .head-btn-profile-out:hover {
-  background: #ffffff url(../img/css_sprites.png) no-repeat -115px -1509px;
+  background: #ffffff url(../img/css_sprites.png) no-repeat -111px -1503px;
 }
 
 .head-btn-profile-out:active {
-  background: #ffffff url(../img/css_sprites.png) no-repeat -1177px -1246px; 
+  background: #ffffff url(../img/css_sprites.png) no-repeat -1173px -1240px; 
 }
 
 .header-catalog .head-buttons {
@@ -1598,6 +1601,10 @@ label.label-btn:hover {
   cursor: pointer;
 }
 
+.profile-btn:last-child {
+  margin-right: 53px;
+}
+
 .profile-btn:hover {
  color: #ee3643;
 }
@@ -1610,7 +1617,7 @@ label.label-btn:hover {
   width: 4px;
   height: 5px;
   border-radius: 50%;
-  margin: 15px;
+  margin: 14px;
   margin-bottom: 0;
   background: #32425c;
 }
@@ -1619,11 +1626,9 @@ label.label-btn:hover {
   width: 140px;
 }
 
-.price {
-  border-bottom: 1px solid #e5e5e5;
-}
-
 .production {
+  margin-top: 42px;
+  border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1738,6 +1743,7 @@ input[type="radio"]:checked + label.label-radio:hover::before {
 }
 
 .filters-h2 {
+  margin: 10px 0;
   font-family: 'PT Sans';
   font-size: 17px;
   line-height: calc(30/17);

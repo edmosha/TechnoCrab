@@ -1,6 +1,7 @@
 var link = document.querySelector('.open-modal');
 var modal = document.querySelector('.write-us');
 var closeModal = document.querySelector('.close-modal');
+var audio = document.querySelector('audio');
 
 link.addEventListener('click', function(event) {
     event.preventDefault();
@@ -12,7 +13,6 @@ closeModal.addEventListener('click', function () {
     modal.classList.remove('open');
 })
 
-function play() {
-    document.getElementById("mp3").innerHTML = "<audio src=\"mp3/tuntun.mp3\" autoplay></audio>"
-}
-
+link.addEventListener('click', function() {
+    audio.setAttribute('src', 'mp3/tuntun.mp3');
+})

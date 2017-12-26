@@ -1927,7 +1927,7 @@ input[type="radio"]:checked + label.label-radio:hover::before {
   font-family: 'PT Sans';
   font-size: 13px;
   line-height: calc(18/13);
-  background: url(../img/kisya-crab.png) no-repeat 260px -8px / 55%;
+  background: url(../img/kisya-crab.png) no-repeat 200px -8px / 55%;
 }
 
 .submit-wrapper {

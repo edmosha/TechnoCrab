@@ -295,3 +295,11 @@ x
     width: 206px; height: 146px;
     background: url('css_sprites.png') -541px -120px;
 }
+
+
+
+  
+/*
+  map2.addEventListener('click' function() {
+      map2.classList.add('map-open');
+  }

@@ -245,7 +245,14 @@
             <div class="contacts">
                 <h2 class="main-h2">Контакты</h2>
                 <p class="info-p">Вы можете забрать товар сами, заехав в наш офис:</p>
-                <img src="img/map.jpg" alt="map">
+
+                
+                <div class="map-modal">
+                    <div id="map"></div>
+                    <button class="close-modal close-map"></button>
+                </div>
+                
+                
                 <a class="main-btn open-modal" id="mp3" onclick="play()">Заблудились? Напишите нам!</a>
                 <audio src="mp3/tunrun.mp3" autoplay ></audio>
             </div>
@@ -323,6 +330,7 @@
         </div>
         </div>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1uNQugNoji2uTAy66ldlY-IVsx3UXlYU&callback=initMap"async defer></script>
     <script src="JS.js"></script>
 </body>
 </html>

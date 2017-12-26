@@ -38,7 +38,7 @@ console.log('2 - модалка робит');
 
 var map;
 function initMap() {
-        var cord = {lat: 57.787089, lng: 40.928935};
+        var cord = {lat: 57.7891203, lng: 40.9395435};
         var balun = 'https://psv4.userapi.com/c816727/u151405344/docs/426efa52037a/balun.png?extra=gUpgZ33COkvaXFEh_FkRvO4nvXhv8f20ZWTOHbzPHUWNRPKbLP4BOoSBKj9hqZlAzr4AAA5O6TvlhAfzuOuiRvoKr53lD9vIWvFMbYf94JjUJPD87uhuNLy9L_I57Id_0eS0WIajdQ'
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 16,

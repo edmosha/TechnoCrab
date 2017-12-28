@@ -1118,6 +1118,14 @@ margin: 0;
 background: #ff5357;
 }
 
+.service  .main-btn:hover {
+  background: #ca2c37 ;
+}
+  
+.service  .main-btn:active {
+  background: #ba2732;
+}
+
 .info-and-contacts li {
 margin: 20px 0;
 list-style: none;

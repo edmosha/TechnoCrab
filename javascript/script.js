@@ -24,7 +24,7 @@ map.addEventListener('click', function(){
     mapClose.classList.add('show');
 });
 
-  mapClose.addEventListener('click', function(){
+mapClose.addEventListener('click', function(){
     mapBlock.classList.remove('map-open');
     mapClose.classList.remove('show');
 });
